@@ -17,7 +17,6 @@ This is an illustrative work sample, not an assessment of any specific law firm'
 ![Practice Insights & AI Opportunity Dashboard](./a_clean_professional_infographic_dashboard_image.png)
 
 ---
----
 
 ## 01 — PRACTICE INSIGHTS
 
