@@ -10,6 +10,13 @@ The emphasis is not on proposing a particular technology platform. It is on help
 
 This is an illustrative work sample, not an assessment of any specific law firm's operations or technology environment.
 
+## Practice Insights & AI Opportunity Dashboard
+
+*Illustrative dashboard — all metrics and examples are hypothetical.*
+
+![Practice Insights & AI Opportunity Dashboard](a_clean_professional_infographic_dashboard_mockup.png)
+
+---
 ---
 
 ## 01 — PRACTICE INSIGHTS
