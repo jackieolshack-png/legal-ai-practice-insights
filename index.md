@@ -4,7 +4,7 @@
 
 ## Purpose
 
-This portfolio demonstrates an approach to translating AI's potential into practical business and operational decisions within a large law firm.
+This portfolio illustrates how practice insights, workflow analysis, and AI transformation can help law-firm leaders identify operational opportunities, prioritize investments, and evaluate measurable improvements in the legal services they deliver.
 
 The emphasis is not on proposing a particular technology platform. It is on helping practice leaders understand where workflows may benefit from change, how to evaluate opportunities, and how to measure whether transformation produces meaningful results.
 
@@ -106,6 +106,24 @@ These components work together:
 The result is a structured approach to connecting AI initiatives with operational priorities, professional judgment, and measurable business outcomes.
 
 ---
+
+---
+
+## Illustrative Leadership Decision
+
+**Business question:** Which AI-enabled workflow should be evaluated next?
+
+A structured assessment would compare candidate workflows using:
+
+- Business relevance and potential client impact.
+- Workflow friction and available baseline data.
+- Feasibility and integration requirements.
+- Confidentiality, quality, and professional-responsibility considerations.
+- User readiness and the effort required to adopt the change.
+
+**Decision output:** Recommend which opportunity to validate first, what evidence is needed, how success will be measured, and what conditions must be satisfied before scaling.
+
+The recommendation would be based on the firm's actual priorities, evidence, and constraints—not on AI adoption activity alone.
 
 ## About This Work Sample
 
