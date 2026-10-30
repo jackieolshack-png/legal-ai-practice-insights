@@ -135,6 +135,8 @@ The recommendation would be based on the firm's actual priorities, evidence, and
 
 This is an illustrative transformation concept developed to demonstrate an approach to practice insights, AI-enabled operational improvement, change adoption, performance measurement, and governance.
 
+[Small Work. Strategic Value.](small-work-strategic-value.html) — An illustrative legal work-allocation model demonstrating AI opportunity identification, business-value assessment, feasibility, and low-friction implementation.
+
 It is not production software, a claim of measured results, or an assessment or recommendation specific to any law firm.
 
 The framework would need to be adapted to the firm's priorities, available data, existing technology, operating model, and professional obligations.
