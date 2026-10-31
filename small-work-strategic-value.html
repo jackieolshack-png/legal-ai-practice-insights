@@ -10,7 +10,7 @@
 </style>
 </head>
 <body><main class="wrap">
-<header class="hero"><div class="eyebrow">Illustrative operating model · not a Cooley assessment</div><h1>Small Work.<br>Strategic Value.</h1><p>A decision model for allocating legal work across AI, junior associates, and partner judgment—while protecting client relationships, developing future lawyers, and testing whether the economics outperform the current way of working.</p><span class="tag">Problem discovery → work allocation → value validation → low-friction adoption</span></header>
+<header class="hero"><div class="eyebrow">Firm-nuetral illustrative operating model · Legal AI work allocation</div><h1>Small Work.<br>Strategic Value.</h1><p>A decision model for allocating legal work across AI, junior associates, and partner judgment—while protecting client relationships, developing future lawyers, and testing whether the economics outperform the current way of working.</p><span class="tag">Problem discovery → work allocation → value validation → low-friction adoption</span></header>
 <section class="section"><h2>The management question is not “Can AI do this task?”</h2><p class="intro">It is: <b>What is the best way to deliver this piece of legal work for this client, at this moment, given its risk, learning value, relationship context, and economics?</b> A workflow should not be automated simply because a model can perform part of it.</p><div class="grid five">
 <div class="card"><div class="num">01 · Client</div><h3>Outcome</h3><p>What does the client need, how quickly, and with what level of confidence or counsel?</p></div>
 <div class="card"><div class="num">02 · Talent</div><h3>Development</h3><p>Does this task build legal judgment, issue recognition, drafting, or client-context skills?</p></div>
@@ -27,7 +27,7 @@
 <div class="card"><b>Octopus / 8 lenses</b><p>Users, Business, Growth, Feasibility, Context, Evaluations, User Experience, and Model Intelligence. Check the whole system, not just model capability.</p></div>
 <div class="card"><b>Product delivery</b><p>Prioritize → roadmap → PRD → product backlog → sprint backlog → prototype/development → evaluate and reflect.</p></div>
 </div><p class="mini" style="margin-top:14px">These are complementary lenses, not four independent approval processes. Their purpose is to prevent a weak opportunity from advancing simply because a prototype is easy to build.</p></section>
-<section class="section"><h2>3. Route work deliberately: not automatically</h2><p class="intro">Illustrative routing logic for a common, low-complexity contract request from an early-stage company. It is inspired by the public example Rachel Proffitt discussed; it does not describe Cooley's internal routing or claim a gap in its existing client offering.</p>
+<section class="section"><h2>3. Route work deliberately: not automatically</h2><p class="intro">Illustrative routing logic for a common, low-complexity contract request from an early-stage company. This example is hypothetical and does not represent any law firm's actual workflow, technology capabilities, staffing decisions, or client offering.</p>
 <table class="matrix"><thead><tr><th>Work component</th><th>Potential destination</th><th>Why this route may fit</th><th>Guardrail / trigger</th></tr></thead><tbody>
 <tr><td>Intake and basic information capture</td><td><span class="route ai">AI / self-service</span></td><td>Structured questions and approved information can reduce friction and give clients faster access.</td><td>Client choice, approved data handling, clear scope, accessible human help.</td></tr>
 <tr><td>Standardized first-pass comparison or summary</td><td><span class="route hybrid">AI + associate review</span></td><td>AI can organize and surface candidate issues; an associate validates, learns to recognize patterns, and records rationale.</td><td>Traceable source references, defined test set, human verification, exception routing.</td></tr>
@@ -45,6 +45,56 @@
 <label for="verify">Can output be independently verified?</label><select id="verify"><option value="yes" selected>Yes, with defined checks</option><option value="partial">Partially</option><option value="no">Not reliably</option></select>
 <label for="data">Approved data, access, and policy conditions</label><select id="data"><option value="yes" selected>Confirmed</option><option value="unknown">Not yet confirmed</option><option value="no">Not satisfied</option></select>
 </div><div class="output" aria-live="polite"><span class="pill">PROVISIONAL ROUTING RESULT</span><h3 id="routeTitle">Hybrid: AI preparation + associate validation</h3><p id="routeText">The task appears standardized enough for bounded AI support, while associate review can preserve learning and catch context-specific issues.</p><h3>Why this route?</h3><p id="whyText">The selection balances repeatability, moderate learning value, moderate legal context, and verifiability.</p><h3>Before proceeding</h3><p id="guardText">Confirm source data, define the review rubric, test against a representative sample, and agree escalation triggers with the supervising lawyer.</p><div class="mini">A qualified practice leader owns legal judgment and staffing. This model structures the decision; it does not make it.</div></div></div></section>
+
+<section class="section">
+  <h2>Supervision Is Part of the Workflow</h2>
+  <p class="intro">
+    AI-assisted work is not ready for adoption merely because
+    it produces a plausible output or reduces preparation time.
+    The workflow must also be reliably supervised at a cost
+    and effort proportionate to its value.
+  </p>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Accountability</h3>
+      <p>Who owns the final legal work product and approves
+      consequential decisions?</p>
+    </div>
+
+    <div class="card">
+      <h3>Verification</h3>
+      <p>What source evidence, test cases, and review procedures
+      can identify substantive errors?</p>
+    </div>
+
+    <div class="card">
+      <h3>Escalation</h3>
+      <p>Which exceptions require associate, senior lawyer,
+      or partner involvement?</p>
+    </div>
+
+    <div class="card">
+      <h3>Supervision economics</h3>
+      <p>Do review, correction, and escalation costs outweigh
+      the expected operational benefit?</p>
+    </div>
+
+    <div class="card">
+      <h3>Professional development</h3>
+      <p>Does the proposed allocation preserve meaningful
+      opportunities to develop legal judgment?</p>
+    </div>
+  </div>
+
+  <div class="callout">
+    <b>Decision gate:</b>
+    If reliable supervision cannot be demonstrated, retain
+    human ownership or redesign the workflow before introducing AI.
+    Human review is an operating requirement, not an assumed
+    safeguard or a cost-free step.
+  </div>
+</section>
 <section class="section"><h2>5. Prove the economics against the existing scenario</h2><p class="intro">Compare the full current workflow with the proposed allocation—not gross AI time savings with total current labor. Count review, correction, escalation, platform, training, and change costs.</p>
 <div class="grid">
 <div class="card"><h3>Baseline: current delivery</h3><p>Measure volume, turnaround, partner/associate/staff touch time, rework, quality, write-offs or agreed price, client experience, and the learning opportunities the current work creates.</p></div>
@@ -62,8 +112,162 @@
 </tbody></table></section>
 <section class="section"><h2>6. Make adoption low-friction by design</h2><div class="flow"><div class="step">Map the real workflow</div><div class="arrow">→</div><div class="step">Preserve existing systems and roles where possible</div><div class="arrow">→</div><div class="step">Pilot with one willing team</div><div class="arrow">→</div><div class="step">Use human approval and rollback</div><div class="arrow">→</div><div class="step">Measure, learn, scale or stop</div></div><p class="intro" style="margin-top:16px">Low-friction implementation means avoiding duplicate data entry, parallel status trackers, unnecessary new logins, opaque handoffs, and forced changes to proven practices. Integrate with existing tools and approval points where feasible. Train by role and workflow, not with generic AI demonstrations.</p></section>
 <section class="section"><h2>7. The product-development gate: build only after the case holds</h2><div class="flow"><div class="step">Prioritize the opportunity</div><div class="arrow">→</div><div class="step">Define decision + requirements</div><div class="arrow">→</div><div class="step">Backlog and acceptance tests</div><div class="arrow">→</div><div class="step">Prototype / controlled pilot</div><div class="arrow">→</div><div class="step">Reflect: scale, revise, stop</div></div><div class="callout"><b>Investment test:</b> Advance only when there is a validated problem, an incremental advantage over the existing scenario, acceptable risk, feasible data and integration, an accountable human owner, a credible economic case, and an adoption plan that does not undermine client trust or lawyer development.</div></section>
-<section class="section"><h2>What this example does, and does not, claim</h2><p>This case study is an illustrative decision model inspired by Rachel Proffitt's public discussion of client self-service, missed relationship opportunities, and associate apprenticeship. Cooley's public article describes a Legora-based contract-review experience for Y Combinator founders and Cooley's exploration of simulated matters and AI-powered mock depositions. This work sample does not assert that Cooley lacks a routing process, that existing products fail, or that the firm should purchase or build another tool.</p><p>All task characteristics, sample routes, measures, and proposed gates are hypotheses for validation with practice leaders, associates, finance, risk, and product/engineering. No internal Cooley data or client information is used. No ROI result is claimed.</p><p class="mini">Source context: Cooley's October 20, 2026 press mention linking to Business Insider's October 19, 2026 article, “AI Could Eat Big Law's Billable Hours. Cooley's Boss Says Bring It On.” The YouTube resource supplied with the original request was not independently retrievable for transcript-level review.</p><p><a href="https://www.cooley.com/news/coverage/2026/2026-10-20-ai-could-eat-big-laws-billable-hours-cooleys-boss-says-bring-it-on" target="_blank" rel="noopener">Read Cooley's press mention</a> · <a href="https://www.youtube.com/watch?v=m0TSvHABD-A" target="_blank" rel="noopener">Open the supplied interview</a></p></section>
-<div class="footer">Illustrative operating model by Jackie Olshack · Not legal advice, not a product implementation, and not an assessment of Cooley's internal operations.</div>
+
+<section class="section">
+  <h2>What This Model Does and Does Not Claim</h2>
+
+  <p>
+    Small Work. Strategic Value. is a firm-neutral,
+    illustrative decision model for evaluating legal work
+    allocation, AI opportunities, supervision requirements,
+    and investment value.
+  </p>
+
+  <p>
+    All task characteristics, routing recommendations,
+    metrics, and governance gates are hypothetical.
+    They require validation with legal practitioners,
+    practice leaders, finance, technology, risk,
+    and other relevant stakeholders.
+  </p>
+
+  <p>
+    This work sample does not assess any law firm's
+    internal operations, evaluate the performance of
+    existing legal AI products, or claim that a firm
+    needs additional technology.
+    No confidential client information, actual
+    implementation results, or realized ROI is presented.
+  </p>
+
+  <h3>Industry Perspectives &amp; Further Reading</h3>
+
+  <p class="intro">
+    The following public resources explore questions
+    about legal AI, client value, lawyer development,
+    and professional supervision. They provide
+    independent industry context and do not imply
+    endorsement of this model by the individuals
+    or organizations referenced.
+  </p>
+
+  <div class="grid">
+
+    <div class="card">
+      <h3>Cooley | Legal AI and Client Value</h3>
+      <p>
+        Public discussion of AI's potential impact
+        on legal service delivery, economics,
+        and client relationships.
+      </p>
+      <p>
+        <a href="https://www.cooley.com/news/coverage/2026/2026-10-20-ai-could-eat-big-laws-billable-hours-cooleys-boss-says-bring-it-on"
+           target="_blank" rel="noopener">
+          Read Cooley's article
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Cooley | Leadership Interview</h3>
+      <p>
+        Additional public perspective on the
+        changing relationship between AI,
+        legal work, and professional judgment.
+      </p>
+      <p>
+        <a href="https://www.youtube.com/watch?v=m0TSvHABD-A"
+           target="_blank" rel="noopener">
+          Watch the interview
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Wilson Sonsini | Breakthrough Minds</h3>
+      <p>
+        Annie Datesh's conversation with
+        Raj Mahapatra explores legal innovation,
+        practitioner needs, technology adoption,
+        and the evolving role of human judgment.
+      </p>
+      <p>
+        <a href="https://www.wsgr.com/en/insights/breakthrough-minds-episode-5-a-conversation-with-annie-datesh.html"
+           target="_blank" rel="noopener">
+          Listen to the conversation
+        </a>
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Raj Mahapatra | Supervision Is the Hard Problem</h3>
+      <p>
+        A perspective on why supervising AI-generated
+        work requires different methods from
+        supervising junior lawyers, including
+        verification and workflow design.
+      </p>
+      <p>
+        <a href="https://www.linkedin.com/pulse/supervision-hard-problem-raj-mahapatra-8wute"
+           target="_blank" rel="noopener">
+          Read the article
+        </a>
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<p>
+  Small Work. Strategic Value. is a firm-neutral, illustrative
+  operating model for evaluating legal work allocation,
+  AI opportunities, client value, professional development,
+  and supervision requirements.
+</p>
+
+<p>
+  All sample tasks, routing decisions, metrics, and governance
+  gates are hypothetical and require validation with legal
+  practitioners and relevant stakeholders. No confidential
+  firm or client information is used. No actual implementation
+  or realized ROI is claimed.
+</p>
+
+<p class="mini">
+  Industry perspectives: The following public resources
+  provide context on legal AI, client value, lawyer development,
+  and supervision. They do not imply endorsement of this model.
+</p>
+
+<p>
+  <a href="https://www.cooley.com/news/coverage/2026/2026-10-20-ai-could-eat-big-laws-billable-hours-cooleys-boss-says-bring-it-on"
+     target="_blank" rel="noopener">
+    Cooley | AI and legal service delivery
+  </a>
+</p>
+
+<p>
+  <a href="https://www.youtube.com/watch?v=m0TSvHABD-A"
+     target="_blank" rel="noopener">
+    Cooley | Public interview
+  </a>
+</p>
+
+<p>
+  <a href="https://www.wsgr.com/en/insights/breakthrough-minds-episode-5-a-conversation-with-annie-datesh.html"
+     target="_blank" rel="noopener">
+    Wilson Sonsini | Breakthrough Minds:
+    A Conversation with Annie Datesh
+  </a>
+</p>
+
+<p>
+  <a href="https://www.linkedin.com/pulse/supervision-hard-problem-raj-mahapatra-8wute"
+     target="_blank" rel="noopener">
+    Raj Mahapatra | Supervision Is the Hard Problem
+  </a>
+</p>
+<div class="footer">Illustrative operating model by Jackie Olshack · Not legal advice, not a product implementation, and not an assessment of any law firm's internal operations.</div>
 </main>
 <script>
 const ids=['risk','repeat','learn','judgment','verify','data'];
